@@ -8,7 +8,7 @@ public class DemoController {
 
     @GetMapping("/")
     public String mainForm() {
-        return "heroku test";
+        return "heroku test!";
     }
 
 }
